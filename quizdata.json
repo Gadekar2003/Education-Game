@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Math Mastery",
+    "subject": "Math",
+    "difficulty": "Easy"
+  },
+  {
+    "title": "Science Explorer",
+    "subject": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "title": "History Hero",
+    "subject": "History",
+    "difficulty": "Hard"
+  }
+]

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard | EduGame</title>
+    <link rel="stylesheet" href="dashboard.css" />
+  </head>
+  <body>
+    <div class="sidebar">
+      <div class="user-info">
+        <!-- <img src="https://i.pravatar.cc/50" alt="User" /> -->
+        <h3 id="username">User</h3>
+      </div>
+
+      <a href="#" class="tab-link active" data-tab="general"
+        >🏠 <span>General</span></a
+      >
+      <a href="#" class="tab-link" data-tab="quiz">📊 <span>My Quiz</span></a>
+      <a href="#" class="tab-link" data-tab="progress"
+        >🏅 <span>Progress</span></a
+      >
+      <a href="#" class="tab-link" data-tab="badge">🧩 <span>Badge</span></a>
+      <a href="#" class="tab-link" data-tab="score">📈 <span>Score</span></a>
+      <a href="#" class="tab-link" data-tab="feedback"
+        >💬 <span>Feedback</span></a
+      >
+
+      <button id="darkToggle">🌓 Toggle Dark Mode</button>
+      <button id="logoutBtn">🚪 Logout</button>
+    </div>
+
+    <div class="main-content">
+      <div id="general" class="content-section active">
+        <h1>Welcome to Your Dashboard</h1>
+        <p>This is your general overview.</p>
+      </div>
+      
+      <!-- Quiz Category Section -->
+      <!-- inside your quiz page  -->
+       <div class="page" id="page-quiz">
+        <h2>My Quiz</h2>
+        <div id="quiz-container"></div>
+       </div>
+       <!-- Quiz start page -->
+       <div class="page" id="quiz-section" style="display:none;">
+        <h2 id="quiz-title">Quiz Title</h2>
+        <div id="quiz-questions"></div>
+       </div>
+       <!-- progress page -->
+       <div id="progress" class="content-section">
+        <h1>Progress</h1>
+        <p>Check your learning journey and achievements.</p>
+      </div>
+      <div id="badge" class="content-section">
+        <h1>Badges</h1>
+        <p>Your earned badges will appear here.</p>
+      </div>
+      <div id="score" class="content-section">
+        <h1>Score</h1>
+        <p>Analyze your quiz scores and performance here.</p>
+      </div>
+      <div id="feedback" class="content-section">
+        <h1>Feedback</h1>
+        <p>Give feedback and see your feedback history.</p>
+      </div>
+    </div>
+
+    <script src="dashboard.js"></script>
+  </body>
+</html>

@@ -1,0 +1,138 @@
+{
+  "Math Mastery": [
+    {
+      "question": "What is 2 + 2?",
+      "options": ["3", "4", "5"],
+      "answer": "4"
+    },
+    {
+      "question": "What is 5 x 3?",
+      "options": ["15", "10", "8"],
+      "answer": "15"
+    },
+    {
+      "question": "What is 12 ÷ 4?",
+      "options": ["3", "2", "4"],
+      "answer": "3"
+    },
+    {
+      "question": "What is the square root of 81?",
+      "options": ["9", "8", "7"],
+      "answer": "9"
+    },
+    {
+      "question": "What is 15 - 7?",
+      "options": ["8", "9", "7"],
+      "answer": "8"
+    },
+    {
+      "question": "What is 7 x 6?",
+      "options": ["42", "36", "48"],
+      "answer": "42"
+    },
+    {
+      "question": "What is 25 ÷ 5?",
+      "options": ["5", "6", "4"],
+      "answer": "5"
+    },
+    {
+      "question": "What is 100 - 45?",
+      "options": ["65", "55", "60"],
+      "answer": "55"
+    },
+    {
+      "question": "What is the value of 3²?",
+      "options": ["6", "9", "12"],
+      "answer": "9"
+    },
+    {
+      "question": "What is 18 ÷ 3?",
+      "options": ["5", "6", "7"],
+      "answer": "6"
+    }
+  ],
+  "Science Explorer": [
+    {
+      "question": "What planet is known as the Red Planet?",
+      "options": ["Earth", "Mars", "Jupiter"],
+      "answer": "Mars"
+    },
+    {
+      "question": "Water freezes at?",
+      "options": ["0°C", "100°C", "50°C"],
+      "answer": "0°C"
+    },
+    {
+      "question": "What is the chemical symbol for water?",
+      "options": ["O₂", "H₂O", "CO₂"],
+      "answer": "H₂O"
+    },
+    {
+      "question": "What gas do plants absorb from the atmosphere during photosynthesis?",
+      "options": ["Oxygen", "Carbon Dioxide", "Nitrogen"],
+      "answer": "Carbon Dioxide"
+    },
+    {
+      "question": "Which organ is responsible for pumping blood in the human body?",
+      "options": ["Lungs", "Heart", "Brain"],
+      "answer": "Heart"
+    },
+    {
+      "question": "What is the powerhouse of the cell?",
+      "options": ["Nucleus", "Mitochondria", "Ribosome"],
+      "answer": "Mitochondria"
+    },
+    {
+      "question": "How many planets are there in our Solar System?",
+      "options": ["7", "8", "9"],
+      "answer": "8"
+    },
+    {
+      "question": "What is the boiling point of water?",
+      "options": ["100°C", "90°C", "120°C"],
+      "answer": "100°C"
+    },
+    {
+      "question": "What is the main source of energy for Earth?",
+      "options": ["Moon", "The Sun", "Wind"],
+      "answer": "The Sun"
+    },
+    {
+      "question": "What is the hardest natural substance on Earth?",
+      "options": ["Gold", "Diamond", "Iron"],
+      "answer": "Diamond"
+    }
+  
+  ],
+  
+  "History Hero":[
+    
+      {
+        "question": "Who was known as the Iron Man of India?",
+        "options": ["Mahatma Gandhi", "Subhas Chandra Bose", "Sardar Vallabhbhai Patel", "Jawaharlal Nehru"],
+        "answer": "Sardar Vallabhbhai Patel"
+      },
+      {
+        "question": "Which Indian freedom fighter formed the Indian National Army?",
+        "options": ["Bhagat Singh", "Subhas Chandra Bose", "Bal Gangadhar Tilak", "Lala Lajpat Rai"],
+        "answer": "Subhas Chandra Bose"
+      },
+      {
+        "question": "Rani Lakshmibai was the queen of which region?",
+        "options": ["Jaipur", "Jhansi", "Mysore", "Gwalior"],
+        "answer": "Jhansi"
+      },
+      {
+        "question": "Who led the Salt March in 1930?",
+        "options": ["Jawaharlal Nehru", "Sardar Patel", "Mahatma Gandhi", "Subhas Chandra Bose"],
+        "answer": "Mahatma Gandhi"
+      },
+      {
+        "question": "Who was the first Indian to receive the Bharat Ratna posthumously?",
+        "options": ["Dr. B. R. Ambedkar", "Lal Bahadur Shastri", "Netaji Subhas Chandra Bose", "Sardar Patel"],
+        "answer": "Lal Bahadur Shastri"
+      }
+
+    
+  ]
+}

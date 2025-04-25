@@ -1,0 +1,262 @@
+:root {
+  --bg-color: #2f80ed;
+  --text-color: #fff;
+  --main-bg: #f1f4f9;
+  --dark-bg: #1e1e1e;
+  --dark-text: #eee;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  min-height: 100vh;
+  background-color: var(--main-bg);
+  transition: all 0.3s ease;
+}
+
+/* Dark mode class */
+body.dark-mode {
+  background-color: var(--dark-bg);
+  color: var(--dark-text);
+}
+
+.sidebar {
+  width: 220px;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  position: fixed;
+  height: 100%;
+}
+
+.user-info {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.user-info img {
+  border-radius: 50%;
+  width: 60px;
+}
+
+.user-info h3 {
+  margin-top: 10px;
+}
+
+.sidebar a,
+.sidebar button {
+  padding: 15px 20px;
+  text-decoration: none;
+  color: white;
+  background: none;
+  border: none;
+  text-align: left;
+  width: 100%;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.sidebar a:hover,
+.sidebar a.active,
+.sidebar button:hover {
+  background-color: #1c60c5;
+  width:180px;
+}
+
+.sidebar a span {
+  margin-left: 10px;
+}
+
+.main-content {
+  margin-left: 220px;
+  padding: 30px;
+  flex: 1;
+}
+
+.content-section {
+  display: none;
+}
+
+.content-section.active {
+  display: block;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+    overflow-x: auto;
+    position: relative;
+  }
+
+  .sidebar a, .sidebar button {
+    flex: 1;
+    justify-content: center;
+  }
+
+  .main-content {
+    margin-left: 0;
+    padding: 20px;
+  }
+}
+/* Sidebar Styling */
+.sidebar {
+  width: 220px;
+  height: 100vh;
+  background-color: #3b93f1;
+  color: white;
+  padding-top: 20px;
+  position: fixed;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Sidebar Items */
+.sidebar h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 24px;
+}
+
+.tab-link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 20px;
+  border: none;
+  background: none;
+  color: white;
+  text-align: left;
+  width: 100%;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+/* .tab-link:hover {
+  background-color: #2f64d3;
+  cursor: pointer;
+  /* padding-left: 25px; */
+ */
+
+/* Content Area */
+.main-content {
+  margin-left: 220px;
+  padding: 30px;
+  background-color: #f4f7fa;
+  min-height: 100vh;
+  transition: margin-left 0.3s ease;
+}
+
+.content-section {
+  display: none;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.4s ease, transform 0.4s ease;
+}
+
+.content-section.active {
+  display: block;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Buttons */
+button {
+  padding: 8px 15px;
+  margin-top: 10px;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  
+}
+
+/* button:hover {
+  background-color: #0056b3;
+} */
+
+/* Dark Mode */
+body.dark-mode {
+  background-color: #121212;
+  color: #f4f4f4;
+}
+
+body.dark-mode .main-content {
+  background-color: #1e1e1e;
+  color:rgb(90, 88, 88);
+}
+
+body.dark-mode .tab-link:hover {
+  background-color: #333;
+}
+
+body.dark-mode button {
+  background-color: #444;
+  color: #efe8e8;
+}
+
+body.dark-mode button:hover {
+  background-color: #bab4b4;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+
+  .main-content {
+    margin-left: 0;
+    padding: 20px;
+  }
+}
+.quiz-card {
+  padding: 15px;
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  background-color: white;
+}
+.quiz-card button {
+  margin-top: 10px;
+  background-color: #fbbf24;
+  border: none;
+  padding: 8px 15px;
+  cursor: pointer;
+}
+.question-block {
+  margin-bottom: 20px;
+}
+
+.option-btn {
+  margin: 5px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: #4b0404;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.option-btn:hover {
+  background-color: #ddd;
+}
+
+.submit-btn {
+  margin: 20px 0;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
