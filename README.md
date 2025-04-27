@@ -4,7 +4,7 @@ The Educational Gamification App is designed to make learning fun and engaging t
 Project Type
 Frontend
 Deployed App
-Frontend: https://spiffy-faloodeh-c53f2d.netlify.app/
+Frontend: ### deployed link:- https://spiffy-faloodeh-c53f2d.netlify.app/
 Directory Structure
 educational-gamification-app/ ├─ home.html
 ├─ home.css
@@ -26,9 +26,11 @@ educational-gamification-app/ ├─ home.html
 
 Video Walkthrough of the Project
 Attach a very short video walkthrough of all the features [1 - 3 minutes].
+video link Project Visual Presentation:-### https://youtu.be/4w7syUyYtIc
 
 Video Walkthrough of the Codebase
 Attach a very short video walkthrough of the codebase [1 - 5 minutes].
+Video link Project Codebase :-### https://youtu.be/6IWpQE0LFfM
 
 Features:-
 1️⃣User Registration and Login using Firebase Authentication

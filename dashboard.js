@@ -54,7 +54,9 @@ function showPage(pageId) {
   } else {
     const targetSection = document.getElementById(pageId);
     if (targetSection) {
+
       targetSection.classList.add("active");
+      targetSection.style.display="block";
     }
   }
 
