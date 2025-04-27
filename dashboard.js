@@ -28,7 +28,7 @@ links.forEach((link) => {
 // LOGOUT
 logoutBtn.addEventListener("click", () => {
   localStorage.clear();
-  window.location.href = "index.html";
+  window.location.href = "home.html";
 });
 
 // DARK MODE
