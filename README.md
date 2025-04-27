@@ -6,22 +6,22 @@ Frontend
 ### Deployed App
 Frontend: ### deployed link:- https://spiffy-faloodeh-c53f2d.netlify.app/ <br>
 ### Directory Structure
-educational-gamification-app/ ├─ home.html
-├─ home.css
-├─ home.js
-├─ Signup.html
-├─ signup.css
-├─ signup.js
-├─ login.html
-├─ login.css
-├─ login.js
-├─ firebase.js
-├─ dashbaord.html
-├─ dashbaoard.css
-├─ dashbaord.js
-├─ images/
-├─ edugame.png
-├─ quizData.json
+educational-gamification-app/ ├─ home.html<br>
+├─ home.css<br>
+├─ home.js<br>
+├─ Signup.html<br>
+├─ signup.css<br>
+├─ signup.js<br>
+├─ login.html<br>
+├─ login.css<br>
+├─ login.js<br>
+├─ firebase.js<br>
+├─ dashbaord.html<br>
+├─ dashbaoard.css<br>
+├─ dashbaord.js<br>
+├─ images/<br>
+├─ edugame.png<br>
+├─ quizData.json<br>
 ├─ quizQuestions.json <br>
 
 ### Video Walkthrough of the Project
@@ -87,9 +87,9 @@ Password: 123456
 Or create your own account using signup.
 
 ### Technology Stack:-
-HTML5
-CSS3
-JavaScript (ES6)
-Firebase Authentication
+HTML5<br>
+CSS3<br>
+JavaScript (ES6)<br>
+Firebase Authentication<br>
 
 
