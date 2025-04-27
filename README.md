@@ -63,15 +63,19 @@ iv)Check your rank on the leaderboard.
 
 Screenshots:
 
-Landing Page
-![landingPage](scrrenshot/Landing Page.png)
+### Landing Page
+![landingPage](scrrenshot/LandingPage.png)
 
 
-Quiz Interface
+### Quiz Section
+![QuizSection](scrrenshot/QuizSection.png)
 
-Leaderboard
+### Quiz Attempt Page
+![QuizAttemptPage](scrrenshot/quizAttempt.png)
 
-Credentials
+### Score And Reward Page
+![ScoreSectionAndReward](scrrenshot/Score&Reward%20Page.png)
+
 You can use the following test credentials:
 
 Email: testuser@example.com
