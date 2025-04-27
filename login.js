@@ -14,8 +14,9 @@ loginForm.addEventListener("submit",async(e)=>{
     const userRef=ref(database,`users/${user.uid}`)
     const snapshot=await get(userRef)
     if(snapshot.exists()){
-      const userData=snapshot.val;
-
+      const userData=snapshot.val();
+      console.log(userData);
+      localStorage.setItem("userID", user.uid); 
       loginForm.reset();
       window.location.href="./dashboard.html"
     }

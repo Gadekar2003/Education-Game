@@ -29,37 +29,8 @@ form.addEventListener("submit", async (e) => {
     message.innerText = error.message;
   }
 });
-// const signupForm=document.getElementById('signup-form');
-// console.log(signupForm);
 
-// document.getElementById("signup-form").addEventListener("submit", async function (e) {
-//   e.preventDefault();  // Prevent the form from submitting traditionally
-//   const name=document.getElementById('signup-name').value.trim();
-//   const email = document.getElementById("signup-email").value.trim();
-//   const password = document.getElementById("signup-password").value.trim();
-//   console.log(name,email,password);
 
-//   // Check if the email and password fields are filled
-//   if (!email || !password) {
-//     alert("Please fill in both fields.");
-//     return;
-//   }
-//   try {
-//     console.log("user")
-//     const userCredentials=await createUserWithEmailAndPassword(auth,email,password);
-//     const user=userCredentials.user;
-//     await set(ref(database,`users/${user.uid}`),{name,email});
-//     window.location.href='./login.html';
-//   } catch (error) {
-//     console.log(error);
-//   }
-
-  
-
-  
-
-  
-// });
 
 
 

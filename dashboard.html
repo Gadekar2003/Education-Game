@@ -17,13 +17,9 @@
         >🏠 <span>General</span></a
       >
       <a href="#" class="tab-link" data-tab="quiz">📊 <span>My Quiz</span></a>
-      <a href="#" class="tab-link" data-tab="progress"
-        >🏅 <span>Progress</span></a
-      >
-      <a href="#" class="tab-link" data-tab="badge">🧩 <span>Badge</span></a>
-      <a href="#" class="tab-link" data-tab="score">📈 <span>Score</span></a>
-      <a href="#" class="tab-link" data-tab="feedback"
-        >💬 <span>Feedback</span></a
+
+      <a href="#" class="tab-link" data-tab="score"
+        >📈 <span>Score And Rewards</span></a
       >
 
       <button id="darkToggle">🌓 Toggle Dark Mode</button>
@@ -32,23 +28,35 @@
 
     <div class="main-content">
       <div id="general" class="content-section active">
-        <h1>Welcome to Your Dashboard</h1>
-        <p>This is your general overview.</p>
+        <h1>Welcome to EduQuiz</h1>
+        <p>Test Your Knowledge and earn rewards!</p>
+
+        <!-- Banner images section -->
+        <div class="banner-images">
+          <div class="banner">
+            <img src="edu1.jpg" alt="Banner 1" class="banner-img" />
+          </div>
+          <div class="banner">
+            <img src="edu2.jpg" alt="Banner 2" class="banner-img" />
+          </div>
+          <div class="banner">
+            <img src="edu3.jpg" alt="Banner 3" class="banner-img" />
+          </div>
+        </div>
       </div>
+
       
-      <!-- Quiz Category Section -->
-      <!-- inside your quiz page  -->
-       <div class="page" id="page-quiz">
+      <div class="page" id="page-quiz">
         <h2>My Quiz</h2>
         <div id="quiz-container"></div>
-       </div>
-       <!-- Quiz start page -->
-       <div class="page" id="quiz-section" style="display:none;">
+      </div>
+      <!-- Quiz start page -->
+      <div class="page" id="quiz-section" style="display: none">
         <h2 id="quiz-title">Quiz Title</h2>
         <div id="quiz-questions"></div>
-       </div>
-       <!-- progress page -->
-       <div id="progress" class="content-section">
+      </div>
+      <!-- progress page -->
+      <div id="progress" class="content-section">
         <h1>Progress</h1>
         <p>Check your learning journey and achievements.</p>
       </div>
@@ -60,12 +68,13 @@
         <h1>Score</h1>
         <p>Analyze your quiz scores and performance here.</p>
       </div>
-      <div id="feedback" class="content-section">
+      <!-- <div id="feedback" class="content-section">
         <h1>Feedback</h1>
         <p>Give feedback and see your feedback history.</p>
-      </div>
+        <div id="user-feedback"></div>
+      </div> -->
     </div>
 
-    <script src="dashboard.js"></script>
+    <script src="./dashboard.js" type="module"></script>
   </body>
 </html>
